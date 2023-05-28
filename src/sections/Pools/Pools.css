@@ -1,0 +1,33 @@
+.poolsdiv {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 50%;
+    min-width: 12em;
+    border: 2px solid;
+    border-radius: 7px;
+    margin: 10px;
+    flex: 1 1 50%;
+}
+
+.addPoolButton {
+    flex: 1 1 100%;
+    margin: 5px;
+    padding: 2px 0 5px 0;
+}
+
+.pooldiv {
+    position: relative;
+}
+
+.deleteButton{
+    min-width: 1.5em;
+    min-height: 1.5em;
+    max-width: 1.5em;
+    max-height:1.5em;
+    padding: 0 0 1px 0;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 10;
+}

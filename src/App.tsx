@@ -1,12 +1,10 @@
 import './App.css'
-import Pool from './components/Pool/Pool'
+import Pools from './sections/Pools/Pools'
 
 function App(){
   return(
     <div className="App">
-      <Pool name="Heart" />
-      <Pool name="Soul" />
-      <Pool name="Stamina" />
+      <Pools />
     </div>
   )
 }

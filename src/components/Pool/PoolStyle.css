@@ -9,11 +9,12 @@ input[type=number] {
 }
 
 .poolDiv {
-    width: 100%;
     display: grid;
     grid-template-columns: 3em 5em 3em;
-    grid-template-rows: 2.5em 1.2em 3em 2em;
-    margin-top: 1em;
+    grid-template-rows: 2em 1.1em 3em 2em;
+    margin: 10px;
+    position: relative;
+    z-index: 1;
 }
 
 /* Title */
@@ -48,7 +49,7 @@ input[type=number] {
 .boxHeader {
     padding: 0px;
     margin: 0px;
-    font-size: .8em;
+    font-size: .75em;
     font-weight: normal;
     font-style: italic;
     text-align: center;
