@@ -65,9 +65,14 @@ input[type=number] {
 .pool {
     text-align: center;
     padding: 1px;
-    border-color: black;
-    border-width: 3px;
+    background-color: #111;
+    border-color: #eee;
+    border-width: 2px;
     border-style: solid;
+}
+
+@media (prefers-color-scheme: light) {
+
 }
 
 .pool:focus {

@@ -5,9 +5,7 @@ import PoolDiv from "./PoolDiv.tsx";
 let id = 3;
 
 const Pools = 
-(props:
-    any
-) => {
+() => {
     const [pools, setPools] = useState<{[index: number]: string}>({
         0: "Heart",
         1: "Soul",
